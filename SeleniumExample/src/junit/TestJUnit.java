@@ -1,19 +1,14 @@
 package junit;
 
-import static org.junit.Assert.assertEquals;
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+import org.junit.runners.Suite.SuiteClasses;
 
-import org.junit.Test;
+//clase para llamar los dos test clases en junit
 
+@RunWith(Suite.class)
+//@SuiteClasses( { MyFirstClassTest.class , MySecondClassTest.class } )
+@SuiteClasses( { MySecondClassTest.class , MyFirstClassTest.class } )
 public class TestJUnit {
 
-	@Test
-	public void testSetup() {
-		String str= "I am done with Junit setup";
-		assertEquals("I am done with Junit setup",str);
-	}
-
 }
-
-
-
-
