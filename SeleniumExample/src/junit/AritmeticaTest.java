@@ -20,7 +20,7 @@ public class AritmeticaTest {
 	private  Aritmetica aritmetica;
 	
 	public AritmeticaTest(int primerNumero, int segundoNumero, int valorExperado) {
-		super();
+		
 		this.primerNumero = primerNumero;
 		this.segundoNumero = segundoNumero;
 		this.valorExperado = valorExperado;
@@ -33,7 +33,7 @@ public class AritmeticaTest {
 	}
 	
 	@Parameterized.Parameters
-	public Collection  datos_entrada()
+	public static Collection  datos_entrada()
 	{
 		return Arrays.asList(new Object[][] {{1,2,3},{4,5,9},{10,20,30},{500,250,750},{50,20,70}});
 	}
