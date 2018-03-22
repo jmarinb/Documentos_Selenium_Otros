@@ -1,5 +1,6 @@
 package test;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class TercerEjemplo {
@@ -10,11 +11,12 @@ public class TercerEjemplo {
 		System.out.println("login web");
 	}
 	
-
+	@Parameters({"URL"})
 	@Test
-	public void MovilLoginCarLoan()
+	public void MovilLoginCarLoan(String urlvalor)
 	{
 		System.out.println("movil login bye");
+		System.out.println(urlvalor);
 	}
 	
 	

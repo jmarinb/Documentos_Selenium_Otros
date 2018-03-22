@@ -1,41 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="8" total="12" passed="4">
+<testng-results skipped="0" failed="0" ignored="5" total="12" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="DemoTestNG" duration-ms="71" started-at="2018-03-21T22:25:32Z" finished-at="2018-03-21T22:25:32Z">
+  <suite name="DemoTestNG" duration-ms="170" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
     <groups>
       <group name="smoke">
-        <method signature="CuartoEjemplo.LoginAPIHomeCarLoan()[pri:0, instance:test.CuartoEjemplo@4f933fd1]" name="LoginAPIHomeCarLoan" class="test.CuartoEjemplo"/>
-        <method signature="FirstExample.demo2()[pri:0, instance:test.FirstExample@4520ebad]" name="demo2" class="test.FirstExample"/>
-        <method signature="SecondExample.demo2()[pri:0, instance:test.SecondExample@d2cc05a]" name="demo2" class="test.SecondExample"/>
-        <method signature="TercerEjemplo.APILogoutCarLoan()[pri:0, instance:test.TercerEjemplo@548a9f61]" name="APILogoutCarLoan" class="test.TercerEjemplo"/>
+        <method signature="FirstExample.demo2()[pri:0, instance:test.FirstExample@1753acfe]" name="demo2" class="test.FirstExample"/>
+        <method signature="SecondExample.demo2()[pri:0, instance:test.SecondExample@548a9f61]" name="demo2" class="test.SecondExample"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Regression" duration-ms="71" started-at="2018-03-21T22:25:32Z" finished-at="2018-03-21T22:25:32Z">
+    <test name="Demo" duration-ms="72" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
       <class name="test.CuartoEjemplo">
-        <test-method status="PASS" signature="LoginAPIHomeCarLoan()[pri:0, instance:test.CuartoEjemplo@4f933fd1]" name="LoginAPIHomeCarLoan" duration-ms="0" started-at="2018-03-21T22:25:32Z" finished-at="2018-03-21T22:25:32Z">
+        <test-method status="PASS" signature="LoginHomeCarLoan()[pri:0, instance:test.CuartoEjemplo@7c16905e]" name="LoginHomeCarLoan" duration-ms="0" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginAPIHomeCarLoan -->
+        </test-method> <!-- LoginHomeCarLoan -->
       </class> <!-- test.CuartoEjemplo -->
       <class name="test.SecondExample">
-        <test-method status="PASS" signature="demo2()[pri:0, instance:test.SecondExample@d2cc05a]" name="demo2" duration-ms="0" started-at="2018-03-21T22:25:32Z" finished-at="2018-03-21T22:25:32Z">
+        <test-method status="PASS" signature="beforemetodoDemo()[pri:0, instance:test.SecondExample@548a9f61]" name="beforemetodoDemo" is-config="true" duration-ms="0" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemetodoDemo -->
+        <test-method status="PASS" signature="demo1()[pri:0, instance:test.SecondExample@548a9f61]" name="demo1" duration-ms="0" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+        <test-method status="PASS" signature="aftermetodoDemo()[pri:0, instance:test.SecondExample@548a9f61]" name="aftermetodoDemo" is-config="true" duration-ms="0" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermetodoDemo -->
+        <test-method status="PASS" signature="aftermetodoDemo()[pri:0, instance:test.SecondExample@548a9f61]" name="aftermetodoDemo" is-config="true" duration-ms="0" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermetodoDemo -->
+        <test-method status="PASS" signature="beforemetodoDemo()[pri:0, instance:test.SecondExample@548a9f61]" name="beforemetodoDemo" is-config="true" duration-ms="0" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemetodoDemo -->
+        <test-method status="PASS" signature="demo2()[pri:0, instance:test.SecondExample@548a9f61]" name="demo2" duration-ms="0" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo2 -->
       </class> <!-- test.SecondExample -->
-      <class name="test.TercerEjemplo">
-        <test-method status="PASS" signature="APILogoutCarLoan()[pri:0, instance:test.TercerEjemplo@548a9f61]" name="APILogoutCarLoan" duration-ms="0" started-at="2018-03-21T22:25:32Z" finished-at="2018-03-21T22:25:32Z">
+      <class name="test.FirstExample">
+        <test-method status="PASS" signature="beforeDemo2()[pri:0, instance:test.FirstExample@1753acfe]" name="beforeDemo2" is-config="true" duration-ms="0" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- APILogoutCarLoan -->
-      </class> <!-- test.TercerEjemplo -->
-      <class name="test.FirstExample">
-        <test-method status="PASS" signature="demo2()[pri:0, instance:test.FirstExample@4520ebad]" name="demo2" duration-ms="16" started-at="2018-03-21T22:25:32Z" finished-at="2018-03-21T22:25:32Z">
+        </test-method> <!-- beforeDemo2 -->
+        <test-method status="PASS" signature="demo1()[pri:0, instance:test.FirstExample@1753acfe]" name="demo1" duration-ms="0" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+        <test-method status="PASS" signature="demo2()[pri:0, instance:test.FirstExample@1753acfe]" name="demo2" duration-ms="25" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo2 -->
+        <test-method status="PASS" signature="afterDemo2()[pri:0, instance:test.FirstExample@1753acfe]" name="afterDemo2" is-config="true" duration-ms="0" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterDemo2 -->
       </class> <!-- test.FirstExample -->
-    </test> <!-- Regression -->
+    </test> <!-- Demo -->
+    <test name="Car Load" duration-ms="18" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
+      <class name="test.SecondExample">
+        <test-method status="PASS" signature="beforeSuiteDemo()[pri:0, instance:test.SecondExample@548a9f61]" name="beforeSuiteDemo" is-config="true" duration-ms="16" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteDemo -->
+        <test-method status="PASS" signature="AfterSuiteDemo()[pri:0, instance:test.SecondExample@548a9f61]" name="AfterSuiteDemo" is-config="true" duration-ms="0" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuiteDemo -->
+      </class> <!-- test.SecondExample -->
+      <class name="test.TercerEjemplo">
+        <test-method status="PASS" signature="LoginCarLoan()[pri:0, instance:test.TercerEjemplo@3532ec19]" name="LoginCarLoan" duration-ms="4" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCarLoan -->
+        <test-method status="PASS" signature="MovilLoginCarLoan(java.lang.String)[pri:0, instance:test.TercerEjemplo@3532ec19]" name="MovilLoginCarLoan" duration-ms="1" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[que onda julio]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MovilLoginCarLoan -->
+      </class> <!-- test.TercerEjemplo -->
+    </test> <!-- Car Load -->
   </suite> <!-- DemoTestNG -->
 </testng-results>

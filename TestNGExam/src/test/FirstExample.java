@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class FirstExample {
 	
-		@Test 
+		@Test(timeOut=5000)
 		public void demo1()
 		{
 			System.out.println("hola mundo");
