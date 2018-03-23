@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Prueba hilos]" parallel="tests">
+  <test thread-count="3" name="hilo2(failed)" parallel="tests">
+    <classes>
+      <class name="threads.Thread2">
+        <methods>
+          <include name="Threadmethod2"/>
+        </methods>
+      </class> <!-- threads.Thread2 -->
+    </classes>
+  </test> <!-- hilo2(failed) -->
+</suite> <!-- Failed suite [Prueba hilos] -->

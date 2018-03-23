@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Prueba hilos" parallel ="tests" thread-count ="3">
+	<test thread-count="5" name="hilo1">
+	
+		<classes>
+			<class name="threads.Thread1" />
+		</classes>
+	</test>
+
+	<test name="hilo2">
+		<classes>
+			<class name="threads.Thread2" />
+		</classes>
+	</test>
+
+	<test name="hilo3">
+		<classes>
+			<class name="threads.Thread3" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

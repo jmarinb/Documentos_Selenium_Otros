@@ -1,94 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="5" total="12" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="DemoTestNG" duration-ms="170" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
+  <suite name="Prueba hilos" duration-ms="63102" started-at="2018-03-23T17:57:12Z" finished-at="2018-03-23T17:58:15Z">
     <groups>
-      <group name="smoke">
-        <method signature="FirstExample.demo2()[pri:0, instance:test.FirstExample@1753acfe]" name="demo2" class="test.FirstExample"/>
-        <method signature="SecondExample.demo2()[pri:0, instance:test.SecondExample@548a9f61]" name="demo2" class="test.SecondExample"/>
-      </group> <!-- smoke -->
     </groups>
-    <test name="Demo" duration-ms="72" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
-      <class name="test.CuartoEjemplo">
-        <test-method status="PASS" signature="LoginHomeCarLoan()[pri:0, instance:test.CuartoEjemplo@7c16905e]" name="LoginHomeCarLoan" duration-ms="0" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
+    <test name="hilo2" duration-ms="34502" started-at="2018-03-23T17:57:12Z" finished-at="2018-03-23T17:57:47Z">
+      <class name="threads.Thread2">
+        <test-method status="PASS" signature="Threadmethod2()[pri:0, instance:threads.Thread2@68c4039c]" name="Threadmethod2" duration-ms="34464" started-at="2018-03-23T17:57:12Z" finished-at="2018-03-23T17:57:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginHomeCarLoan -->
-      </class> <!-- test.CuartoEjemplo -->
-      <class name="test.SecondExample">
-        <test-method status="PASS" signature="beforemetodoDemo()[pri:0, instance:test.SecondExample@548a9f61]" name="beforemetodoDemo" is-config="true" duration-ms="0" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
+        </test-method> <!-- Threadmethod2 -->
+      </class> <!-- threads.Thread2 -->
+    </test> <!-- hilo2 -->
+    <test name="hilo1" duration-ms="55111" started-at="2018-03-23T17:57:12Z" finished-at="2018-03-23T17:58:07Z">
+      <class name="threads.Thread1">
+        <test-method status="PASS" signature="Threadmethod()[pri:0, instance:threads.Thread1@2a5ca609]" name="Threadmethod" duration-ms="55076" started-at="2018-03-23T17:57:12Z" finished-at="2018-03-23T17:58:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforemetodoDemo -->
-        <test-method status="PASS" signature="demo1()[pri:0, instance:test.SecondExample@548a9f61]" name="demo1" duration-ms="0" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
+        </test-method> <!-- Threadmethod -->
+      </class> <!-- threads.Thread1 -->
+    </test> <!-- hilo1 -->
+    <test name="hilo3" duration-ms="63102" started-at="2018-03-23T17:57:12Z" finished-at="2018-03-23T17:58:15Z">
+      <class name="threads.Thread3">
+        <test-method status="PASS" signature="Threadmethod2()[pri:0, instance:threads.Thread3@77caeb3e]" name="Threadmethod2" duration-ms="63066" started-at="2018-03-23T17:57:12Z" finished-at="2018-03-23T17:58:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demo1 -->
-        <test-method status="PASS" signature="aftermetodoDemo()[pri:0, instance:test.SecondExample@548a9f61]" name="aftermetodoDemo" is-config="true" duration-ms="0" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermetodoDemo -->
-        <test-method status="PASS" signature="aftermetodoDemo()[pri:0, instance:test.SecondExample@548a9f61]" name="aftermetodoDemo" is-config="true" duration-ms="0" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermetodoDemo -->
-        <test-method status="PASS" signature="beforemetodoDemo()[pri:0, instance:test.SecondExample@548a9f61]" name="beforemetodoDemo" is-config="true" duration-ms="0" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemetodoDemo -->
-        <test-method status="PASS" signature="demo2()[pri:0, instance:test.SecondExample@548a9f61]" name="demo2" duration-ms="0" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demo2 -->
-      </class> <!-- test.SecondExample -->
-      <class name="test.FirstExample">
-        <test-method status="PASS" signature="beforeDemo2()[pri:0, instance:test.FirstExample@1753acfe]" name="beforeDemo2" is-config="true" duration-ms="0" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeDemo2 -->
-        <test-method status="PASS" signature="demo1()[pri:0, instance:test.FirstExample@1753acfe]" name="demo1" duration-ms="0" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demo1 -->
-        <test-method status="PASS" signature="demo2()[pri:0, instance:test.FirstExample@1753acfe]" name="demo2" duration-ms="25" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demo2 -->
-        <test-method status="PASS" signature="afterDemo2()[pri:0, instance:test.FirstExample@1753acfe]" name="afterDemo2" is-config="true" duration-ms="0" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterDemo2 -->
-      </class> <!-- test.FirstExample -->
-    </test> <!-- Demo -->
-    <test name="Car Load" duration-ms="18" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
-      <class name="test.SecondExample">
-        <test-method status="PASS" signature="beforeSuiteDemo()[pri:0, instance:test.SecondExample@548a9f61]" name="beforeSuiteDemo" is-config="true" duration-ms="16" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuiteDemo -->
-        <test-method status="PASS" signature="AfterSuiteDemo()[pri:0, instance:test.SecondExample@548a9f61]" name="AfterSuiteDemo" is-config="true" duration-ms="0" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterSuiteDemo -->
-      </class> <!-- test.SecondExample -->
-      <class name="test.TercerEjemplo">
-        <test-method status="PASS" signature="LoginCarLoan()[pri:0, instance:test.TercerEjemplo@3532ec19]" name="LoginCarLoan" duration-ms="4" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginCarLoan -->
-        <test-method status="PASS" signature="MovilLoginCarLoan(java.lang.String)[pri:0, instance:test.TercerEjemplo@3532ec19]" name="MovilLoginCarLoan" duration-ms="1" started-at="2018-03-22T23:10:47Z" finished-at="2018-03-22T23:10:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[que onda julio]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MovilLoginCarLoan -->
-      </class> <!-- test.TercerEjemplo -->
-    </test> <!-- Car Load -->
-  </suite> <!-- DemoTestNG -->
+        </test-method> <!-- Threadmethod2 -->
+      </class> <!-- threads.Thread3 -->
+    </test> <!-- hilo3 -->
+  </suite> <!-- Prueba hilos -->
 </testng-results>
